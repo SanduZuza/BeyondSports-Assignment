@@ -6,6 +6,8 @@ First you will need to download the Visual Studio project "BS Project".
 Next, you need to download the Postman request collection "New Collection.postman_collection"
 Inside the collection you will find Postman requests for different scenraios.
 
+NOTE: In this ReadMe for link I am using https://localhost:7067, but since it is a local host it might have a different port value for you.
+
 First we need to add some entries to the database. To do so, we can use the 6 POST requests. Each will add a new player to the database.
 To pass a new player entry you will need to post on the link: https://localhost:7067/players
 The body has to be a JSON file with the following tempalte:
