@@ -1,0 +1,450 @@
+{
+	"info": {
+		"_postman_id": "3dd5f795-0ce0-48b9-acc2-91a2094130f7",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Silviu Smalenea (Zimbru Chisinau)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Silviu Smalenea\",\r\n    \"age\": 20,\r\n    \"height\": 184,\r\n    \"team\": \"Zimbru Chisinau\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7067/players",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7067",
+					"path": [
+						"players"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Sebastian Agachi  (Zimbru Chisinau)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Sebastian Agachi\",\r\n    \"age\": 22,\r\n    \"height\": 182,\r\n    \"team\": \"Zimbru Chisinau\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7067/players",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7067",
+					"path": [
+						"players"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Nikolaos Giannakopoulos (Zimbru Chisinau)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Nikolaos Giannakopoulos\",\r\n    \"age\": 30,\r\n    \"height\": 193,\r\n    \"team\": \"Zimbru Chisinau\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7067/players",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7067",
+					"path": [
+						"players"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Wojciech Szczesny (Juventus)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Wojciech Szczesny\",\r\n    \"age\": 32,\r\n    \"height\": 196,\r\n    \"team\": \"Juventus\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7067/players",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7067",
+					"path": [
+						"players"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Carlo Pinsoglio (Juventus)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Carlo Pinsoglio\",\r\n    \"age\": 32,\r\n    \"height\": 194,\r\n    \"team\": \"Juventus\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7067/players",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7067",
+					"path": [
+						"players"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mattia Perin (Juventus)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Mattia Perin\",\r\n    \"age\": 30,\r\n    \"height\": 188,\r\n    \"team\": \"Juventus\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7067/players",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7067",
+					"path": [
+						"players"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Players",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7067/players/team/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7067",
+					"path": [
+						"players",
+						"team",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All From Team Zimbru",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7067/players/team/Zimbru Chisinau",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7067",
+					"path": [
+						"players",
+						"team",
+						"Zimbru Chisinau"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All From Team Juventus",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7067/players/team/Zimbru Chisinau",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7067",
+					"path": [
+						"players",
+						"team",
+						"Zimbru Chisinau"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Name By ID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:7067/players/name/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7067",
+					"path": [
+						"players",
+						"name",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Age By ID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:7067/players/age/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7067",
+					"path": [
+						"players",
+						"age",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Height By ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7067/players/height/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7067",
+					"path": [
+						"players",
+						"height",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Team By ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7067/players/team/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7067",
+					"path": [
+						"players",
+						"team",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put Player 1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1\r\n    \"name\": \"Nikolaos Giannakopoulos\",\r\n    \"age\": 30,\r\n    \"height\": 193,\r\n    \"team\": \"Zimbru Chisinau\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7067/players",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7067",
+					"path": [
+						"players"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put Remove Team Play 1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7067/players/removeFromTeam/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7067",
+					"path": [
+						"players",
+						"removeFromTeam",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put Set Team Player 1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7067/players/removeFromTeam/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7067",
+					"path": [
+						"players",
+						"removeFromTeam",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
